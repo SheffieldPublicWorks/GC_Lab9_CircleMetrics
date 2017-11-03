@@ -1,0 +1,7 @@
+public class Hiker
+{
+    public static double GetArea (double r)
+    {
+        return (int)(3.141592654 * (r * r) * 100) / 100.0;
+    }
+}

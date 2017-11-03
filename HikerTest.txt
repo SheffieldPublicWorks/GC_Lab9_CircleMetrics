@@ -1,0 +1,41 @@
+
+using NUnit.Framework;
+
+[TestFixture]
+public class HikerTest
+{
+    [Test]
+    public void Case1()
+    {
+        // a simple example to start you off
+        Assert.AreEqual(4735774.14, Hiker.GetArea(1227.78));
+    }
+    
+    [Test]
+    public void Case2()
+    {
+        // a simple example to start you off
+        Assert.AreEqual(314.16, Hiker.GetArea(10));
+    }
+    
+    [Test]
+    public void Case3()
+    {
+        // a simple example to start you off
+        Assert.AreEqual(1256.64, Hiker.GetArea(20));
+    }
+    
+    [Test]
+    public void Case4()
+    {
+        // a simple example to start you off
+        Assert.AreEqual(7853.98, Hiker.GetArea(50));
+    }
+    
+    [Test]
+    public void Case5()
+    {
+        // a simple example to start you off
+        Assert.AreEqual(3141586.37, Hiker.GetArea(999.999));
+    }
+}
